@@ -1,0 +1,13 @@
+1649388595240	geckodriver	INFO	Listening on 127.0.0.1:52104
+1649388598394	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52105" "-no-remote" "-profile" "C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofilekJKE6A"
+1649388599365	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofilekJKE6A\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52105/devtools/browser/49574222-d07d-472f-bd1e-3424b4984e8b
+1649388603093	Marionette	INFO	Listening on port 52110
+1649388603245	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649388619938	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://trx.academy"

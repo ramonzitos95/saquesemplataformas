@@ -1,0 +1,18 @@
+1649388730649	geckodriver	INFO	Listening on 127.0.0.1:52181
+1649388733715	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52182" "-no-remote" "-profile" "C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofilerUQMWn"
+1649388734640	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofilerUQMWn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52182/devtools/browser/e2feddbc-bce5-4a90-9802-691bea4e2bee
+1649388738627	Marionette	INFO	Listening on port 52189
+1649388739058	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649388754307	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://trx.academy"
+1649389145584	Marionette	INFO	Stopped listening on port 52189
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+

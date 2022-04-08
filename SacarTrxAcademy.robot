@@ -8,6 +8,7 @@ Documentation     Desenvolvido para sacar automaticamente trx na trx mining
 ${url}                  https://trx.academy/mobile/login.html
 ${user}                 47996821589
 ${pw}                   Ramon@@1995
+${botton_pd}            10061995
 ${botao_login}    id:denglu
 ${valorSacar}     1.35
 
@@ -22,6 +23,9 @@ Bater Ponto
     Wait Until Element Is Visible   ${botao_login}
     Click Element   ${botao_login}
     Sleep  20s
+    Wait Until Element Is Visible  xpath://*[@id="iKnow"]
+    Click Element                  xpath://*[@id="iKnow"]
+
     Wait Until Element Is Visible  xpath://*[@id="app"]/main/div[2]/div[1]/div/div/a[2]/span/span[1]
     Click Element  xpath://*[@id="app"]/main/div[2]/div[1]/div/div/a[2]/span/span[1]
 
@@ -35,14 +39,16 @@ Bater Ponto
 
 //Senha de saque
     Wait Until Element Is Visible  xpath://*[@id="app"]/main/div[2]/div/div[1]/div[5]/input
-    Input Text                     xpath://*[@id="app"]/main/div[2]/div/div[1]/div[5]/input  ${pw}
+    Click Element                  xpath://*[@id="app"]/main/div[2]/div/div[1]/div[5]/input 
+    Input Text                     xpath://*[@id="app"]/main/div[2]/div/div[1]/div[5]/input   ${botton_pd}
 
+    Sleep  5s
 //Botão de confirmar saque
     Wait Until Element Is Visible  xpath://*[@id="app"]/main/div[2]/div/div[2]/button
     Click Element                  xpath://*[@id="app"]/main/div[2]/div/div[2]/button
 
     
-    Sleep  10s
+    Sleep  30s
     # Input Password    mode
     # Submit Credentials
     # Welcome Page Should Be Open
