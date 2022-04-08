@@ -1,0 +1,14 @@
+1648844967485	geckodriver	INFO	Listening on 127.0.0.1:60761
+1648844970568	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60762" "-no-remote" "-profile" "C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofileLpOeXe"
+1648844971084	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofileLpOeXe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60762/devtools/browser/bb7a3dd4-2b3e-4f54-ae2b-8ca954c737b1
+1648844974488	Marionette	INFO	Listening on port 60773
+1648844974759	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.trxmining.co"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.trxmining.co"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1648845019150	Marionette	INFO	Stopped listening on port 60773
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

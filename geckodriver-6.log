@@ -1,0 +1,17 @@
+1648845119393	geckodriver	INFO	Listening on 127.0.0.1:49907
+1648845122483	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49908" "-no-remote" "-profile" "C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofileya8EFq"
+1648845123029	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofileya8EFq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49908/devtools/browser/bf9017f0-4c02-4768-b360-106a700ffc7f
+1648845126771	Marionette	INFO	Listening on port 49919
+1648845128065	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.trxmining.co"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.trxmining.co"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1648845832010	Marionette	INFO	Stopped listening on port 49919
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
