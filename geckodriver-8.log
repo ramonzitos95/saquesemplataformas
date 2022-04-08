@@ -1,28 +1,13 @@
-1648845830518	geckodriver	INFO	Listening on 127.0.0.1:50978
-1648845833590	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50979" "-no-remote" "-profile" "C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofileIZbEp8"
-1648845834188	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofileIZbEp8\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:50979/devtools/browser/4708cfb5-c158-45eb-90e7-63bc62cc2770
-1648845837539	Marionette	INFO	Listening on port 50995
-1648845837768	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1648845854771	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
-TimedPromise@chrome://remote/content/marionette/sync.js:220:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.trxmining.co"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.trxmining.co"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-1648845861324	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
-TimedPromise@chrome://remote/content/marionette/sync.js:220:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1648845867179	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
-TimedPromise@chrome://remote/content/marionette/sync.js:220:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
-1648845877390	Marionette	INFO	Stopped listening on port 50995
+1649447639262	geckodriver	INFO	Listening on 127.0.0.1:49828
+1649447642297	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49829" "-no-remote" "-profile" "C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofileiLydLh"
+1649447643271	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofileiLydLh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49829/devtools/browser/c61bc3fa-2cfd-4c0e-a401-e02ac0e35031
+1649447646214	Marionette	INFO	Listening on port 49836
+1649447646489	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 2884, MediaDecoderStateMachine #1] WARNING: Decoder=2e511613600 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 2884, MediaDecoderStateMachine #1] WARNING: Decoder=2e511613600 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3577
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.qoo10999.com"
+JavaScript error: https://www.qoo10999.com/static/js/common.c0464b15.js, line 1: TypeError: A.$refs.input.scrollIntoViewIfNeeded is not a function
+JavaScript error: https://www.qoo10999.com/static/js/app.58a6234a.js?v=6971, line 1: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+1649447702826	Marionette	INFO	Stopped listening on port 49836

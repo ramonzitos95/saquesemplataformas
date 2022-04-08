@@ -1,17 +1,15 @@
-1648845509207	geckodriver	INFO	Listening on 127.0.0.1:50505
-1648845512288	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50506" "-no-remote" "-profile" "C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofileC3b7iz"
-1648845512784	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofileC3b7iz\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:50506/devtools/browser/3abfe77c-785a-4de4-b3a5-94f237fb0993
-1648845516573	Marionette	INFO	Listening on port 50513
-1648845517069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.trxmining.co"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.trxmining.co"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1648845832812	Marionette	INFO	Stopped listening on port 50513
+1649447596023	geckodriver	INFO	Listening on 127.0.0.1:49763
+1649447599138	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49764" "-no-remote" "-profile" "C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofileUE2vXi"
+1649447599646	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofileUE2vXi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49764/devtools/browser/6c575bc1-390b-4b2b-97b0-cc89126ed606
+1649447604110	Marionette	INFO	Listening on port 49769
+1649447604449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 31900, MediaDecoderStateMachine #1] WARNING: Decoder=1eee8324900 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 31900, MediaDecoderStateMachine #1] WARNING: Decoder=1eee8324900 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3577
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.qoo10999.com"
+JavaScript error: https://www.qoo10999.com/static/js/app.58a6234a.js?v=6971, line 1: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+JavaScript error: https://www.qoo10999.com/static/js/common.c0464b15.js, line 1: TypeError: A.$refs.input.scrollIntoViewIfNeeded is not a function
+1649447619079	Marionette	INFO	Stopped listening on port 49769
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-
-###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
-
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]

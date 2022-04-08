@@ -1,10 +1,14 @@
-1648844409251	geckodriver	INFO	Listening on 127.0.0.1:59817
-1648844412340	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59818" "-no-remote" "-profile" "C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofileVQHU7p"
-1648844413696	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofileVQHU7p\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:59818/devtools/browser/286da7e3-eac3-4341-94a6-45eeb3974cfe
-1648844418508	Marionette	INFO	Listening on port 59826
-1648844418672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
-1648844631376	Marionette	INFO	Stopped listening on port 59826
-console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1649446977759	geckodriver	INFO	Listening on 127.0.0.1:65439
+1649446980851	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65440" "-no-remote" "-profile" "C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofileMdB30V"
+1649446981740	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofileMdB30V\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65440/devtools/browser/c0f9342a-8dd7-48b9-b0a4-f78634b33c60
+1649446985183	Marionette	INFO	Listening on port 65446
+1649446985665	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 31900, MediaDecoderStateMachine #1] WARNING: Decoder=17103218400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 31900, MediaDecoderStateMachine #1] WARNING: Decoder=17103218400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3577
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.qoo10999.com"
+1649447016690	Marionette	INFO	Stopped listening on port 65446
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+

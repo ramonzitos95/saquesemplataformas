@@ -1,12 +1,17 @@
-1648844752166	geckodriver	INFO	Listening on 127.0.0.1:60442
-1648844755239	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60443" "-no-remote" "-profile" "C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofile9FmQ5e"
-1648844755749	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofile9FmQ5e\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:60443/devtools/browser/c1501abe-686e-43f0-8048-dfd0903134c9
-1648844758983	Marionette	INFO	Listening on port 60452
-1648844759419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.trxmining.co"
-1648844781705	Marionette	INFO	Stopped listening on port 60452
+1649447339740	geckodriver	INFO	Listening on 127.0.0.1:49353
+1649447342793	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49354" "-no-remote" "-profile" "C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofilewi53CJ"
+1649447343595	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ramon\\AppData\\Local\\Temp\\rust_mozprofilewi53CJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49354/devtools/browser/b30c0bbc-61f0-4fee-a057-b8e94fc065f6
+1649447348129	Marionette	INFO	Listening on port 49363
+1649447348618	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 22092, MediaDecoderStateMachine #1] WARNING: Decoder=127218ed400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 22092, MediaDecoderStateMachine #1] WARNING: Decoder=127218ed400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3577
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.qoo10999.com"
+JavaScript error: https://www.qoo10999.com/static/js/common.c0464b15.js, line 1: TypeError: A.$refs.input.scrollIntoViewIfNeeded is not a function
+JavaScript error: https://www.qoo10999.com/static/js/app.58a6234a.js?v=6971, line 1: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+1649447384652	Marionette	INFO	Stopped listening on port 49363
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
 
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
